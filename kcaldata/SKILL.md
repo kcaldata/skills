@@ -28,7 +28,7 @@ not affiliated with the USDA.
 GET https://api.kcaldata.com/v1/lookup?query=2%20large%20eggs
 ```
 
-100 calls per day, no signup. Returns JSON:
+50 calls per day, no signup. Returns JSON:
 
 ```json
 {
@@ -55,7 +55,7 @@ Beyond the free allowance, calls cost **$0.005 USDC** on Base mainnet
 data once payment settles:
 
 ```
-GET https://pay.kcaldata.com/v1/pro/lookup?query=2%20large%20eggs
+GET https://api.kcaldata.com/v1/pro/lookup?query=2%20large%20eggs
 ```
 
 **MCP tool** — connect the server below and call `lookup_calories`. After the
